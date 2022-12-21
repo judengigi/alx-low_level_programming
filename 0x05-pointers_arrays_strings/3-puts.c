@@ -4,7 +4,7 @@
  * _puts - function that prints a string
  * followed by a new line to stdout
  *
- * @str: is my input string
+ * @str: This is my input string
  *
  */
 
@@ -16,5 +16,5 @@ void _puts(char *str)
 	{
 		_putchar(str[index]);
 	}
-	_putchar('\n');
+	_putchar('\n);
 }
