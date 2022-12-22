@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-*
-**_strncat - function similar to _strcat
+* _strncat - function similar to _strcat
 *@dest: first string
 *@src: second string
 *@n: third string
