@@ -3,7 +3,7 @@
 /**
  **_strcat - function appends src string to dest string
  *@dest: first string function
- *@src: second string
+ *@src: second parameter
  *
  * Return: a string
  */
@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[len])
 		len++;
 
-	for (i = 0; src[1] != 0; i++)
+	for (i = 0; src[i] != 0; i++)
 	{
 		dest[len] = src[i];
 		len += 1;
