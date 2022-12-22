@@ -4,6 +4,7 @@
 * reverse_array - function that reverses
 * @a: array a
 * @n: element of an array
+* Return: void
 */
 void reverse_array(int *a, int n)
 {
@@ -18,4 +19,7 @@ void reverse_array(int *a, int n)
 		a[k] = *p;
 		*p = aux;
 		p--;
+	}
+
+	return (void);
 }
